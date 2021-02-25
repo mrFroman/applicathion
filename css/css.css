@@ -5,14 +5,8 @@ color: black;
 box-sizing: border-box;
 }
 
-h1 h2 h3 h4 p{
-    margin: 0;
-}
-
 .section{
     width: 1440px;
-    background-color: #2EC5CE;
-
 }
 
 .container {
@@ -20,35 +14,81 @@ h1 h2 h3 h4 p{
     margin: 0px auto;
 }
 
+h2{
+   margin-bottom: 8px;
+   font-size: 48px
+}
+
+h3{
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+h5{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+p{
+    font-size: 18px;
+    margin: 0;
+}
+
 .left-block{
-    width: 400px;
+    width: 445px;
     display: inline-block;
-    background-color: red;
-    vertical-align: middle;
-    margin-right: 0;
+    background-color:turquoise;
+    margin-top: -280px;
+    margin-bottom: -246px;
+    margin-left: -165px;
+    margin-right: -4px;
+    padding-left: 165px;
+    padding-top: 246px;
+    padding-bottom: 246px;
+    padding-right: 59px;
+    
 }
 
 .right-block{
-    width:570px;
+    width: 570px;
     display: inline-block;
+    margin-top: 34px;
     margin-left: 36px;
     margin-bottom: 40px;
     vertical-align: middle;
-    background-color: brown;
 }
 
-.img{
-    margin-left: 450px;
-    display: inline-block;
+.p_left-block{
+    margin:0;
+    font-size: 18px;
+}
+.quote-img{
+    padding-left: 450px;
 }
 
 .persons-block{
     width: 255px;
     height: 56px;
-    margin-left: 36px;
-    background-color: orange;
+    margin-top: 26px;
+    margin-left: 16px;
+    display: inline-block;
 }
 
 .persons-img{
-    margin-right: 350px;
+    float: left;
+    margin-top: 26px;
+}
+
+p{
+    margin-top: 26px;
+    margin-right: 76px;
+}
+
+.logo-img{
+    padding-top: 48px;
+}
+
+.logo_navigation-img{
+    margin-right: 40px;
+    margin-left: 295px;
 }
