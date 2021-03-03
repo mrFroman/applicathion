@@ -1,14 +1,13 @@
 body {
 margin: 0;
 font-family: "Manrope", sans-serif;
-color: #18191F;
+color: #18191f;
 box-sizing: border-box;
 }
 
 .container {
     width: 1110px;
     margin: 0px auto;
-    background-color: red;
 }
 .block-img{
     width: 540px;
@@ -29,12 +28,15 @@ img:nth-child(even){
     vertical-align: bottom;
 }
 
+img:hover{
+    box-shadow: 3px 3px #444446;
+}
+
 .block-headline{
     margin-top: 220px;
     display: inline-block;
     width: 444px;
     margin-left: 78px;
-    background-color: orange;
     vertical-align: top;
 }
 
@@ -53,7 +55,6 @@ h3{
 .headline-icon{
     display: inline-block;
     width: 372px;
-    background-color: white;
 }
 h6{
     font-size: 20px;
@@ -70,7 +71,23 @@ button{
     margin-top: 40px;
     color: white;
     padding: 10px 21px;
-    background-color: #8C30F5;
+    background-color: #8c30f5;
     border-radius: 8px;
     border: 0;
+}
+
+button:hover{
+    color:  #ffffff;
+    background-color: #7d1392;
+    border: 1px;
+    border-radius: 8px;
+    outline: none;
+}
+
+button:focus{
+    color:  #ffffff;
+    background-color: #500f5c;
+    border: 1px;
+    border-radius: 8px;
+    outline: none;
 }
