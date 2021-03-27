@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    font-family: "Mulish", sans-serif;
+    background: #FFFFFF; 
+    box-sizing: border-box;
+}
+
+h1 h2 h3 h4 p{
+    margin: 0;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.trafalgar-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+    height: 40px;
+    padding-top: 56px;
+}
+
+.trafalgar-head__icon-icon{
+    padding-right: 12px;
+    height: 41px;
+}
+
+.trafalgar-head__icon-text{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    align-self: center;
+}
+
+.trafalgar-head__icon{
+    display: flex;
+}
+
+ .trafalgar-head__link{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.head__link{
+    font-size: 18px;
+    margin-right: 40px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #1F1534;
+}
+
+.head__link:hover, :focus {
+    color: #1F1534;
+    font-weight: bold;
+}
+
+
+/* шапка сайта */
+.trafalgar-contentent__virtual{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 192px;
+}
+
+.trafalgar-contentent__virtual-text{
+    height: 338px;
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trafalgar-contentent__virtual-text h1{
+    font-size: 48px;
+}
+
+.trafalgar-contentent__virtual-text p{
+    font-size: 21px;
+    font-weight: 300;
+    color: #7D7987;
+}
+
+.trafalgar-contentent__virtual-button{
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1px solid #458FF6;
+    background-color: #FFFFFF;
+    color: #458FF6;
+}
+
+.trafalgar-contentent__virtual-button:hover, .trafalgar-contentent__virtual-button:focus{
+    background-color: #458FF6;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+/* кнопка первого блока */
+
+/* конец первого блока контента */
+
+.trafalgar-contentent__text{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 952px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+/* начало второго блока */
+
+.trafalgar-contentent__services-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.trafalgar-contentent__services{
+    width: 350px;
+    height: 354px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 32px;
+    box-sizing: border-box;
+    margin-right: 32px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.trafalgar-contentent__services-img{
+    height: 90px;
+    width: 90px;
+}
+
+.trafalgar-contentent__services-text h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.trafalgar-contentent__services-text p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #7D7987;
+    line-height: 28px;
+}
+
+
+.trafalgar-contentent__services-buttom{
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1px solid #458FF6;
+    background-color: #FFFFFF;
+    color: #458FF6;
+    margin: 0 auto;
+    margin-bottom: 277px;
+}
+
+.trafalgar-contentent__services-buttom:hover, .trafalgar-contentent__services-buttom:focus{
+    background-color: #458FF6;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+/* конец второго блока */
+
+.trafalgar-contentent__leading{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 192px;
+}
+
+.trafalgar-contentent__leading-text{
+    height: 338px;
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.trafalgar-contentent__leading-text h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.trafalgar-contentent__leading-text h3::after{
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.trafalgar-contentent__leading-text p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #7D7987;
+    line-height: 30px;
+}
+
+.trafalgar-contentent__leading-button{
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1px solid #458FF6;
+    background-color: #FFFFFF;
+    color: #458FF6;
+}
+
+.trafalgar-contentent__leading-button:hover, .trafalgar-contentent__leading-button:focus{
+    background-color: #458FF6;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
