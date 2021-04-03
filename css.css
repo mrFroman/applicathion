@@ -74,7 +74,7 @@ h1 h2 h3 h4 p{
 }
 
 .trafalgar-contentent__virtual-text{
-    height: 338px;
+    /* height: 338px; */
     width: 445px;
     display: flex;
     flex-direction: column;
@@ -83,12 +83,14 @@ h1 h2 h3 h4 p{
 
 .trafalgar-contentent__virtual-text h1{
     font-size: 48px;
+    font-weight: bold;
 }
 
 .trafalgar-contentent__virtual-text p{
     font-size: 21px;
     font-weight: 300;
     color: #7D7987;
+    line-height: 32px;
 }
 
 .trafalgar-contentent__virtual-button{
@@ -161,6 +163,10 @@ h1 h2 h3 h4 p{
     line-height: 28px;
 }
 
+.trafalgar-contentent__services-down{
+    display: flex;
+    justify-content: center;
+}
 
 .trafalgar-contentent__services-buttom{
     width: 200px;
@@ -169,7 +175,6 @@ h1 h2 h3 h4 p{
     border: 1px solid #458FF6;
     background-color: #FFFFFF;
     color: #458FF6;
-    margin: 0 auto;
     margin-bottom: 277px;
 }
 
@@ -229,4 +234,156 @@ h1 h2 h3 h4 p{
     color: #FFFFFF;
     cursor: pointer;
     outline: none;
+}
+/* конец третьего блока */
+
+.trafalgar-contentent__download{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 266px;
+}
+
+.trafalgar-contentent__download-text{
+    height: 392px;
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.trafalgar-contentent__download-text h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.trafalgar-contentent__download-text p{
+    font-size: 21px;
+    font-weight: 300;
+    color: #7D7987;
+    line-height: 30px;
+}
+
+.trafalgar-contentent__download-button{
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1px solid #458FF6;
+    background-color: #FFFFFF;
+    color: #458FF6;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    ba
+}
+
+.trafalgar-contentent__download-button:hover, .trafalgar-contentent__download-button:focus{
+    background-color: #458FF6;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+/* конец четвертого блока */
+
+.trafalgar__custumer-saying{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 284px;
+}
+
+.trafalgar-contentent__article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.trafalgar-contentent__article-read{
+    width: 350px;
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 40px 32px;  */
+    box-sizing: border-box;
+    margin-right: 34px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.trafalgar-contentent__article-read img{
+    overflow: hidden; 
+    padding: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.trafalgar-contentent__article-read-text{
+    padding: 21px 35px;
+}
+
+.trafalgar-contentent__article-read-text h3{
+    font-size: 21px;
+    font-weight: bold;
+} 
+
+.trafalgar-contentent__article-read-text p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #7D7987;
+}
+
+.trafalgar-contentent__article-read-text a{
+    text-decoration: none;
+}
+
+.trafalgar-contentent__article-down{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 202px;
+}
+
+
+.trafalgar-contentent__article-buttom{
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1px solid #458FF6;
+    background-color: #FFFFFF;
+    color: #458FF6;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.trafalgar-contentent__article-buttom:hover, .trafalgar-contentent__article-buttom:focus{
+    background-color: #458FF6;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+
+/* конец основного блока */
+
+.trafalgar-footer{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.trafalgar-footer__about{
+    display: flex;
+    flex-direction: column;
+}
+.trafalgar-footer__company{
+    display: flex;
+    flex-direction: column;
+
 }
